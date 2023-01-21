@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400&display=swap');
+
+.category-tile {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 30px;
+}
+
+.card {
+    border: none !important;
+    width: 15rem !important;
+    
+}
+img.card-img-top.product-preview-img {
+    border-radius: 3px;
+    
+}
+
+.category-tile:hover {
+    transform: scale(1.05);
+}
+
+.sale__banner--container img {
+    max-width: 900px;
+    display: block;
+    margin: 0 auto;
+}
+.conatin{
+    background-color: rgb(255, 255, 255);
+    width:80rem;
+
+    border-radius:10px;
+    border:0.2px;
+    border-style: solid;
+    border-color: rgb(188, 187, 187);
+}
+.conatin2{
+    background-color: rgb(255, 255, 255);
+    width:80rem;
+    height: 13rem;
+    border-radius:10px;
+    border:0.2px;
+    border-style: solid;
+    border-color: rgb(188, 187, 187);
+}
+.bg2{
+    background-color:#f8f9fa;
+}
+.font{
+    font-family: 'Teko', sans-serif;
+    font-weight: bold;
+}
+.modif{
+    margin-left: 330px;
+}
+.star {
+    font-size: 1.5rem;
+}
+
+.hover {
+    color: rgb(255, 196, 0);
+}
